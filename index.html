@@ -36,6 +36,11 @@
         .sice {
             height: 500px;
         }
+        
+        .size2{
+            height:100px;
+            width:100px;
+        }
 
         .title_bottom {
             bottom: 30%;
@@ -49,7 +54,6 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            
         }
 
         body {
@@ -64,7 +68,7 @@
             left: 0;
             right: 0;
             height: 70px;
-            background-color: #333;
+            background-color: black;
             color: #fff;
             z-index: 999;
             display: flex;
@@ -97,8 +101,8 @@
             align-items: center;
             color: #fff;
             /*background: url('https://video.wixstatic.com/video/8e6a57_96b57869405440a29fb326c2d794a9b2/720p/mp4/file.mp4');
-            
-            
+
+
             background-image: url('')
             min-height: 400px;
             background-attachment: fixed;
@@ -119,6 +123,19 @@
                 text-shadow: 1px 1px #000;
             }
 
+        .p {
+            text-align: justify;
+            margin: 0 20px;
+            color: antiquewhite;
+        }
+        h2 {
+            margin: 0 20px;
+            color: antiquewhite;
+        }
+        .thh2{
+            color: antiquewhite;
+            font-size: 2em;
+        }
         /* Estilo del footer */
         .footer {
             background-color: #333;
@@ -138,11 +155,13 @@
 <body>
     <!-- Navbar -->
     <div class="navbar">
-        <h2>Logo</h2>
+        <h5 style=" color: aqua; ">Empresa de produccion audio visual usando drones</h5>
+        <!--<h2><img class="size2" src="https://www.canva.com/design/DAFgcM57UEY/dgwkQbWmySw7PB_AmTVY3g/view" /></h2>
+        -->
         <div>
-            <a href="#">Inicio</a>
-            <a href="#">Servicios</a>
-            <a href="#">Contacto</a>
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contacto.html">Contacto</a>
         </div>
     </div>
 
@@ -153,7 +172,9 @@
 
 
 
-
+    <br />
+    <br />
+    <br />
 
 
 
@@ -161,8 +182,13 @@
     <!-- Contenido principal -->
     <div class="main-content">
         <h2>Explora el mundo desde nuevas alturas con nuestros videos y fotos aéreas.</h2>
-        <p>Nuestra empresa se dedica a la captura de imágenes y videos aéreos mediante el uso de drones de última generación, que nos permiten ofrecer una perspectiva única y fascinante del mundo que nos rodea. Nos especializamos en la post producción de estos materiales, lo que nos permite entregar productos finales de alta calidad y con un alto valor agregado para nuestros clientes. Con nuestro equipo de expertos en edición de video e imagen, transformamos la captura cruda de drones en productos finales que cautivan a nuestros clientes y les permiten experimentar el mundo desde una perspectiva nunca antes vista. Ya sea para uso comercial o personal, nuestro enfoque personalizado y compromiso con la calidad hacen de nosotros la elección perfecta para aquellos que buscan productos únicos y emocionantes. ¡Contáctanos hoy para comenzar a explorar el mundo desde nuevas alturas!</p>
+        <br />
+        <p class="p">Nuestra empresa se dedica a la captura de imágenes y videos aéreos mediante el uso de drones de última generación, que nos permiten ofrecer una perspectiva única y fascinante del mundo que nos rodea. Nos especializamos en la post producción de estos materiales, lo que nos permite entregar productos finales de alta calidad y con un alto valor agregado para nuestros clientes. Con nuestro equipo de expertos en edición de video e imagen, transformamos la captura cruda de drones en productos finales que cautivan a nuestros clientes y les permiten experimentar el mundo desde una perspectiva nunca antes vista. Ya sea para uso comercial o personal, nuestro enfoque personalizado y compromiso con la calidad hacen de nosotros la elección perfecta para aquellos que buscan productos únicos y emocionantes. ¡Contáctanos hoy para comenzar a explorar el mundo desde nuevas alturas!</p>
     </div>
+
+    <br />
+    <br />
+    <br />
 
     <!--Mi primer carrusel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -177,31 +203,40 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div style="text-align: center;">
-                    <img class="sice" src="https://document-export.canva.com/Ues8Q/DAFeErUes8Q/73/thumbnail/0003.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230417T145627Z&X-Amz-Expires=55812&X-Amz-Signature=b9a229c24ad6c3ba82851ca9ff9ada9eee29c9ee19af5bffc3d5c587cb89e4f8&X-Amz-SignedHeaders=host&response-expires=Tue%2C%2018%20Apr%202023%2006%3A26%3A39%20GMT" alt="Los Angeles">
+                    <img class="sice" src="https://github.com/Cristian-M0ntes/Imagenes/blob/main/RelacionesClientes.png?raw=true" alt="Los Angeles">
                     <div class="title_bottom">
-                        <h3>Los Angeles</h3>
-                        <p>LA is always so much fun!</p>
+                        <!--
+                             <h3>Los Angeles</h3>
+                             <p>LA is always so much fun!</p>
+                        --->
                     </div>
                 </div>
             </div>
 
             <div class="carousel-item">
                 <div style="text-align: center;">
-                    <img class="sice" src="https://document-export.canva.com/Ues8Q/DAFeErUes8Q/73/thumbnail/0004.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230417T191527Z&X-Amz-Expires=43642&X-Amz-Signature=c21f127a1ed23e11651a7f1fc22af4b1acad28e36a86065e0de9db8657f16f84&X-Amz-SignedHeaders=host&response-expires=Tue%2C%2018%20Apr%202023%2007%3A22%3A49%20GMT" alt="Chicago">
+                    <img class="sice" src="https://github.com/Cristian-M0ntes/Imagenes/blob/main/SegmentoClientes.png?raw=true" alt="Chicago">
                     <div class="title_bottom">
-                        <h3>Chicago</h3>
-                        <p>Thank you, Chicago!</p>
+
+                        <!--
+                             <h3>Chicago</h3>
+                             <p>Thank you, Chicago!</p>
+                        -->
                     </div>
                 </div>
             </div>
 
             <div class="carousel-item">
                 <div style="text-align: center;">
-                    <img class="sice " src="https://document-export.canva.com/Ues8Q/DAFeErUes8Q/73/thumbnail/0008.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20230418%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230418T043428Z&X-Amz-Expires=9514&X-Amz-Signature=2afaaebf93aed3848f3a6feab5e7721e4b2e05d4ff14d4e561633ce83711df30&X-Amz-SignedHeaders=host&response-expires=Tue%2C%2018%20Apr%202023%2007%3A13%3A02%20GMT" alt="New York">
+                    <img class="sice " src="https://github.com/Cristian-M0ntes/Imagenes/blob/main/Captura%20de%20pantalla%202023-04-20%20130321.png?raw=true" alt="New York">
+
+                    <!--
                     <div class=" title_bottom">
                         <h3>New York</h3>
                         <p>We love the Big Apple!</p>
                     </div>
+
+                    -->
                 </div>
             </div>
         </div>
@@ -215,6 +250,31 @@
         </a>
     </div>
     <!--FIN DEL PRIMER CARRUSEL-->
+
+
+    <!--TABLA -->
+    <table class="p" border="1" style="border-collapse: collapse; border-color: gray;">
+        <thead>
+            <tr>
+                <th class="thh2" colspan="2" style="text-align:center;">Venta de videos e imágenes, post producción con drones</th>
+            </tr>
+        </thead>
+
+     
+        <tbody >
+            <tr>
+                <td class="p" colspan="2">Nuestra empresa se dedica a capturar videos e imágenes con drones de alta tecnología, y a su posterior edición y producción. Nos especializamos en brindar soluciones personalizadas para nuestros clientes en diversos campos, desde publicidad y marketing hasta inspecciones y monitoreo de terrenos. Contáctenos para obtener más información.</td>
+            </tr>
+        </tbody>
+       
+    </table>
+
+
+
+
+
+
+
 
     <br />
     <br />
@@ -235,7 +295,7 @@
                 <img src="https://i.ytimg.com/vi/Q3xcze3kHwo/maxresdefault.jpg" alt="Los Angeles">
                 <div class="carousel-caption">
                     <h3>Los Angeles</h3>
-                    <p>LA is always so much fun!</p>
+                    <!-- <p>LA is always so much fun!</p>-->
                 </div>
             </div>
 
@@ -256,41 +316,35 @@
             </div>
         </div>
 
-        <!-- Left and right controls -->
+        <!-- Left and right controls
         <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </a>
         <a class="carousel-control-next" href="#myCarousel" data-slide="next">
             <span class="carousel-control-next-icon"></span>
         </a>
+            -->
     </div>
 
     <!--FIN DEL SEGUNDO CARRUSEL-->
 
 
-<br />
+    <br />
+    <br />
+    <br />
 
-
-    <table border="1" style="border-collapse: collapse; border-color: red;">
-        <thead>
-            <tr>
-                <th colspan="2" style="text-align:center;">Venta de videos e imágenes post producción con drones</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td colspan="2">Nuestra empresa se dedica a capturar videos e imágenes con drones de alta tecnología, y a su posterior edición y producción. Nos especializamos en brindar soluciones personalizadas para nuestros clientes en diversos campos, desde publicidad y marketing hasta inspecciones y monitoreo de terrenos. Contáctenos para obtener más información.</td>
-            </tr>
-        </tbody>
-    </table>
 
 
 
 
     <br />
+    <br />
+    <br />
     <!-- Footer -->
     <div class="footer">
         <p>Derechos reservados &copy; 2023</p>
+        <a href="https://www.facebook.com/profile.php?id=100091930333800&sk=about">Facebook</a>
+
     </div>
 </body>
 </html>
